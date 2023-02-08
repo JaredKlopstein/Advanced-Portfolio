@@ -183,7 +183,6 @@ nav,
     background: -webkit-linear-gradient(180deg,#3f5efb, #fc466b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 4px 20px rgb(0,0,0, 30%);
 }
 
 .link__hover-effect {
