@@ -398,10 +398,6 @@ nav {
     margin: 12px 0 24px 0;
     font-size: 14px;
 }
-.modal__para {
-    margin-bottom: 12px;
-    line-height: 1.75;
-}
 
 .form__item {
     margin-bottom: 20px;
@@ -546,7 +542,7 @@ nav {
     height: 250px;
     overflow: hidden;
     display: flex;
-    background: #ebebeb;
+    background: #242424;
     transition: .5s;
     border-radius: 10px;
     position: relative;
@@ -555,6 +551,7 @@ nav {
 .project-card:hover {
     cursor: pointer;
 }
+
 .project-thumbnail{
     width: 100%;
     position: relative;
