@@ -542,8 +542,8 @@ nav {
 }
 
 .project-card{
-    width: 350px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     display: flex;
     background: #ebebeb;
@@ -560,6 +560,11 @@ nav {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    background-color: #242424;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .close-btn{
@@ -578,7 +583,7 @@ nav {
 .project-image{
     width: 100%;
     height: 100%;
-    object-fit: stretch;
+    object-fit: center;
 }
 
 .project-card.active{
@@ -587,6 +592,15 @@ nav {
 
 .project-wrapper{
     transition: 1s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.project-title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
 }
 
 .project-card.blur{
@@ -610,12 +624,17 @@ nav {
 .project-card.active .project-thumbnail{
     width: 300px;
     height: 300px;
+    
 }
 
 .project-card.active .close-btn{
     display: block;
 }
 
+
+.tags {
+    display: none;
+}
 .project-card.active .tags{
     position: absolute;
     bottom: 10px;
@@ -723,6 +742,11 @@ color: white;
     .modal__half {
         width: 100%;
 
+    }
+
+    .project-wrapper {
+        display: flex;
+        flex-direction: column;
     }
 }
 

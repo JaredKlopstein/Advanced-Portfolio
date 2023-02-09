@@ -51,7 +51,7 @@ const createProjectCards = (data) => {
                 <div class="project-wrapper">
                     <div class="project-thumbnail">
                         <button class="close-btn" type="button">&#x2715;</button>
-                        <img src="${data.image}" class="project-image" alt="">
+                        <h1 class="project-title">${data.name}</h1>
                         <span class="tags">${data.tags}</span>
                     </div>
 
@@ -68,24 +68,8 @@ const createProjectCards = (data) => {
 
 let projectData = [
     {
-        image: 'assets/googleclone.png',
-        name: 'project one',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #fullstack, #css'
-    },
-    {
-        image: 'assets/googleclone.png',
-        name: 'project one',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #fullstack, #css'
-    },
-    {
-        image: 'assets/googleclone.png',
-        name: 'project one',
+        image: 'assets/searchengine.png',
+        name: 'Search Engine',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
