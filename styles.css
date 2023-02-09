@@ -190,7 +190,7 @@ nav,
     line-height: 1;
 }
 .secondary {
-    background: -webkit-linear-gradient(180deg,#3f5efb, #fc466b);
+    background: -webkit-linear-gradient(180deg,#3f5efb, #f06449);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -524,7 +524,7 @@ nav {
 }
 
 .filter-btn.active{
-    background: #9f5264;
+    background: #f06449;
     color: #fff;
 }
 
@@ -691,8 +691,19 @@ color: white;
 
 /* SMALL PHONES,TABLETS,LARGE SMARTPHONES */
 @media(max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nav__link {
+        padding: 0;
+    }
+    .header__img {
+        width: 70%;
+        margin: 0;
+    }
     .title {
-        font-size: 80px;
+        font-size: 76px;
     }
     .header__para {
         font-size: 16px;
@@ -718,9 +729,19 @@ color: white;
     .title {
         font-size: 48px;
     }
+    .header__img {
+        width: 70%;
+        margin: 0;
+    }
+    .header__contentRight {
+        padding: 0;
+    }
     .header__para {
         font-size: 12px;
     }
+    .nav__link {
+        padding: 0;
+    };
     .nav__link:first-child {
         display: none;
     }
