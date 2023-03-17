@@ -107,7 +107,8 @@ nav,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para {
+.dark-theme .header__para,
+.dark-theme .heading {
     color: white;
 }
 
@@ -124,7 +125,9 @@ nav,
     background-color: white;
 }
 
-.dark-theme .mail__btn {
+.dark-theme .mail__btn,
+.dark-theme .project-thumbnail,
+.dark-theme .project-title  {
     background-color: white;
     color: #242424
 }

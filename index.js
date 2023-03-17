@@ -69,7 +69,7 @@ const createProjectCards = (data) => {
 let projectData = [
     {
         image: 'assets/searchengine.png',
-        name: 'Search Engine',
+        name: 'Google Clone',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
@@ -77,11 +77,83 @@ let projectData = [
     },
     {
         image: 'assets/googleclone.png',
-        name: 'project one',
+        name: 'JS30',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
         tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'LinkedIn Clone',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'Slack Clone',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'Portfolio Website',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'AI Avatar Generator',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'ExplAInBot',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'ExplAInBot Chrome Extension',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'Cinema Central',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'Treact Webpage Clone',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css'
+    },
+    {
+        image: 'assets/googleclone.png',
+        name: 'Library - Book Store',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css, #react'
     }
 ]
 
