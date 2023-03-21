@@ -105,49 +105,49 @@ let projectData = [
     {
         name: 'AI Avatar Generator',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        github: 'https://github.com/JaredKlopstein/AI-Avatar',
         live: '#',
         tags: '#javascript, #fullstack, #css'
     },
     {
         name: 'ExplAInBot',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A React application that uses AI to explain complex topics in simple terms. Users can input a topic and receive a simplified explanation using natural language processing and machine learning.',
+        github: 'https://github.com/JaredKlopstein/GPT3-Writer',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#javascript, #fullstack, #ai, #css'
     },
     {
         name: 'ExplAInBot Chrome Extension',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'This is a Chrome extension for the ExplAInBot Project',
+        github: 'https://github.com/JaredKlopstein/GPT3-Writer-Extension',
         live: '#',
         tags: '#javascript, #fullstack, #css, #ai, #react'
     },
     {
         name: 'Cinema Central',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A React application similar to Netflix, built using React and incorporating TMDB API for movie data. Features include user authentication, browsing, and searching.',
+        github: 'https://github.com/JaredKlopstein/cinema-central',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#javascript, #fullstack, #css, #react'
     },
     {
         name: 'Treact Webpage Clone',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: `A clone of Treact's website layout using HTML, CSS, and JavaScript. Includes responsive design, animations, and interactive components.`,
+        github: 'https://github.com/JaredKlopstein/Treact-Clone',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#html, #css'
     },
     {
         name: 'Library - Book Store',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A book store application that allows users to browse, search, and purchase books. Features include a shopping cart, checkout process, and payment integration. Built using React.',
+        github: 'https://github.com/JaredKlopstein/Book-Store',
         live: '#',
         tags: '#javascript, #fullstack, #css, #react'
     },
     {
         name: 'FullStackOpen',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        github: 'https://github.com/JaredKlopstein/fullstackopen',
         live: '#',
         tags: '#javascript, #fullstack, #css, #react'
     }
