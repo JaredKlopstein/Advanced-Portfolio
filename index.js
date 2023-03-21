@@ -68,47 +68,41 @@ const createProjectCards = (data) => {
 
 let projectData = [
     {
-        image: 'assets/searchengine.png',
         name: 'Google Clone',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #fullstack, #css'
+        detail: 'A Google search engine clone built using React and the Google API. Allows users to search the web and view results in a familiar interface.',
+        github: 'https://github.com/JaredKlopstein/google-clone',
+        live: 'https://clone-9a18f.web.app/',
+        tags: '#react, #javascript, #html, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'JS30',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A collection of 30 vanilla JavaScript challenges created by Wes Bos, covering topics such as animations, APIs, and web components. Helps improve JS skills without frameworks or libraries.',
+        github: 'https://github.com/JaredKlopstein/JS30',
         live: '#',
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'LinkedIn Clone',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
+        detail: 'A LinkedIn clone built using React and Redux. Features so far include posting on timeline',
+        github: 'https://github.com/JaredKlopstein/linkedin-clone',
+        live: '',
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'Slack Clone',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A Slack clone built using React and Firebase. Features real-time messaging, user authentication, and data storage on the cloud.',
+        github: 'https://github.com/JaredKlopstein/slack-clone',
         live: '#',
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'Portfolio Website',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
+        detail: 'A portfolio website built using vanilla JavaScript. Includes features such as responsive design, smooth scrolling, and dynamic content loading.',
+        github: 'https://github.com/JaredKlopstein/Advanced-Portfolio',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#javascript, #html, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'AI Avatar Generator',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
@@ -116,7 +110,6 @@ let projectData = [
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'ExplAInBot',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
@@ -124,15 +117,13 @@ let projectData = [
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'ExplAInBot Chrome Extension',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#javascript, #fullstack, #css, #ai, #react'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'Cinema Central',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
@@ -140,7 +131,6 @@ let projectData = [
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'Treact Webpage Clone',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
@@ -148,8 +138,14 @@ let projectData = [
         tags: '#javascript, #fullstack, #css'
     },
     {
-        image: 'assets/googleclone.png',
         name: 'Library - Book Store',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript, #fullstack, #css, #react'
+    },
+    {
+        name: 'FullStackOpen',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',

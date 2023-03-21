@@ -504,6 +504,7 @@ nav {
     transition: .5s;
     margin-right: 20px;
 }
+
 .btn:hover {
     transform: scale(1.1);
 }
@@ -523,11 +524,13 @@ nav {
 
 .filter-btn{
     margin-right: 0;
+    border: none;
 }
 
 .filter-btn.active{
     background: #f06449;
     color: #fff;
+
 }
 
 .project-container{
@@ -578,6 +581,7 @@ nav {
     border: none;
     background-color: transparent;
     font-size: 24px;
+    color: white;
 }
 
 .project-image{
@@ -618,7 +622,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: rgba(0,0,0, 0.1);
+    background: rgba(0,0,0, 0.25);
 }
 
 .project-card.active .project-thumbnail{
@@ -675,6 +679,7 @@ nav {
     margin-top: 10px;
     margin-right: 5px;
     padding: 10px 20px;
+    
 }
 
 /* FOOTER */
