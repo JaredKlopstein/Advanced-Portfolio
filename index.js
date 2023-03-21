@@ -56,7 +56,7 @@ const createProjectCards = (data) => {
                     </div>
 
                     <div class="project-body">
-                        <h1 class="project-name">${data.name}</h1>
+                        
                         <p class="project-detail">${data.detail}</p>
                         <a href="${data.github}" class="btn">github</a>
                         <a href="${data.live}" class="btn">see live</a>

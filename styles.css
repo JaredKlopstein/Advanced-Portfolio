@@ -114,6 +114,10 @@ nav,
     color: white;
 }
 
+.dark-theme .close-btn {
+    color: #242424;
+}
+
 .dark-theme section {
     background-color: #242424;
 }
