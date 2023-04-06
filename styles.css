@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -280,11 +280,6 @@ nav,
 }
 /* NAVIGATION */
 
-#personal-logo {
-    height: 50px;
-    width: 50px;
-}
-
 nav {
     display: flex;
     justify-content: center;
@@ -495,6 +490,7 @@ nav {
     font-size: 4rem;
     font-weight: 400;
     padding: 100px 0;
+    color: #242424;
 }
 
 .btn{
@@ -535,7 +531,6 @@ nav {
 .filter-btn.active{
     background: #f06449;
     color: #fff;
-
 }
 
 .project-container{
@@ -627,7 +622,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: rgba(0,0,0, 0.25);
+    background: rgba(0,0,0, 0.5);
 }
 
 .project-card.active .project-thumbnail{
@@ -644,14 +639,15 @@ nav {
 .tags {
     display: none;
 }
-.project-card.active .tags{
+
+/* .project-card.active .tags{
     position: absolute;
     bottom: 10px;
     z-index: 2;
     left: 10px;
     color: #fff;
     opacity: .9;
-}
+} */
 
 .project-body{
     display: none;
@@ -712,7 +708,7 @@ footer {
     max-width: 500px;
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .footer__social--link,
 .footer__copyright {
@@ -767,7 +763,7 @@ color: white;
         font-size: 48px;
     }
     .header__img {
-        width: 70%;
+        width: 50%;
         margin: 0;
     }
     .header__contentRight {

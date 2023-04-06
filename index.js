@@ -56,7 +56,6 @@ const createProjectCards = (data) => {
                     </div>
 
                     <div class="project-body">
-                        
                         <p class="project-detail">${data.detail}</p>
                         <a href="${data.github}" class="btn">github</a>
                         <a href="${data.live}" class="btn">see live</a>
@@ -160,8 +159,8 @@ projectData.forEach(data => createProjectCards(data));
 let projects = document.querySelectorAll('.project-card');
 
 projects.forEach((card, index) => {
-
     let closeBtn = card.querySelector('.close-btn');
+
     closeBtn.addEventListener('click', () => {
         projects.forEach((item, i) => {
             item.classList.remove('blur')
@@ -170,7 +169,7 @@ projects.forEach((card, index) => {
     })
 
     card.addEventListener('click', (e) => {
-        if(e.path[0] != closeBtn){
+        if(e.target != closeBtn){
             projects.forEach((item, i) => {
                 if(i != index){
                     item.classList.add('blur')
